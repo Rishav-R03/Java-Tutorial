@@ -7,12 +7,28 @@
  *
  * @author 91931
  */
-public class Student {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String args[]) {
-        // TODO code application logic here
+public class Student{
+    private String name;
+    private int age;
+    
+    public Student(String name,int age){
+        this.name = name;
+        this.age = age;
+    }
+    public String getName(){
+        return name;
+    }
+    public int getAge(){
+        return age;
+    }
+    public class Main{
+    public static void main(String [] args){
+        Student s1 = new Student("Rishav",21);
+        Student s2 = new Student("Pranjal",20);
+        System.out.println(s1.getName() + " is " + s1.getAge() + " years old.");
+        System.out.println(s2.getName() + " is " + s2.getAge() + " years old.");
+        }
     }
 }
+
+
