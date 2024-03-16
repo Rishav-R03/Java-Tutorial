@@ -21,14 +21,12 @@ public class Student{
     public int getAge(){
         return age;
     }
-    public class Main{
     public static void main(String [] args){
         Student s1 = new Student("Rishav",21);
         Student s2 = new Student("Pranjal",20);
         System.out.println(s1.getName() + " is " + s1.getAge() + " years old.");
         System.out.println(s2.getName() + " is " + s2.getAge() + " years old.");
         }
-    }
 }
 
 
