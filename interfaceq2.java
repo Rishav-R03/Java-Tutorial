@@ -1,8 +1,3 @@
-package JavaOops;
-
-/**
- * Innerinterference
- */
 interface Person{
     public void displayName();
     public void displayAge();
