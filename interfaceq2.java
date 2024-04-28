@@ -1,19 +1,24 @@
-interface Person{
-    public void displayName();
-    public void displayAge();
+interface Person {
+  void displayName();
+  void displayAge();
 }
-class person implements Person{
-      public void displayName(){
-        System.out.println("Rishav");
-      }
-      public void displayAge(){
-        System.out.println(21);
-      }
+
+class PersonImpl implements Person {
+  @Override
+  public void displayName() {
+      System.out.println("Rishav");
+  }
+
+  @Override
+  public void displayAge() {
+      System.out.println("21");
+  }
 }
-class Main{
-    public static void main(String [] args){
-        person ob = new person();
-        ob.displayName();
-        ob.displayAge();
-    }
+
+public class Interface {
+  public static void main(String[] args) {
+      Person ob = new PersonImpl();
+      ob.displayName();
+      ob.displayAge();
+  }
 }
