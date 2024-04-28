@@ -39,5 +39,6 @@ class sequence
 		System.out.println(flipBit(13));
 		System.out.println(flipBit(1775));
 		System.out.println(flipBit(15));
+		System.out.println(flipBit(51));
 	}
 } 
