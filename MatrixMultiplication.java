@@ -6,7 +6,7 @@ public class MatrixMultiplication {
 
         System.out.println("Enter the number of rows and columns for the first matrix:");
         int rows1 = scanner.nextInt();
-        int cols1 = scanner.nextInt();3 
+        int cols1 = scanner.nextInt();
 
         System.out.println("Enter the elements of the first matrix:");
         int[][] matrix1 = readMatrix(scanner, rows1, cols1);
