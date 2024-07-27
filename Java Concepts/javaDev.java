@@ -3,4 +3,6 @@ public class javaDev {
     String userName = "";
     int roll = 0;
     int accNo = 2034;
+
+    String bankName = "";
 }
