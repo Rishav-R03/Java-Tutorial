@@ -6,5 +6,6 @@ public class javaDev {
     int roll = 0;
     int accNo = 2034;
     String bankName = "";
+    int [] arr = [0];
 
 }
