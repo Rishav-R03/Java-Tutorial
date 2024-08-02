@@ -7,5 +7,7 @@ public class javaDev {
     int accNo = 2034;
     String bankName = "";
     int [] arr;
+    int [][] arr2;
+    
 
 }
