@@ -14,5 +14,6 @@ public class arrayIntro {
         arr[4] = 5;
 
         System.out.println(arr[0]);
+        System.out.println(arr[2]);
     }
 }
