@@ -29,5 +29,8 @@ public class Hashing {
         /*
          * for( each: collection_name)
          */
+        for (int var : map) {
+            
+        }
     }
 }
